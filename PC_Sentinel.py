@@ -7,18 +7,6 @@
 # {LATEST} v1.0.1 - Modular Delta Edition - 9 January 2026
 # {OLD} v1.0.0 - System Sentinel Core - 9 January 2026
 
-# ----------------- SYSTEM ARCHITECTURE (HOW IT WORKS) ----------------- #
-# 1. HARDWARE INTERFACE: 
-#    Uses 'psutil' to communicate with Windows/Linux kernel to fetch 
-#    CPU, RAM, and Battery metrics.
-#
-# 2. TREND TRACKING: 
-#    Stores the last measurement to show real-time increase/decrease.
-#
-# 3. MODULAR CONFIG: 
-#    All system limits and UI toggles are managed from a single block.
-# ----------------------------------------------------------------------- #
-
 import os
 import sys
 import time
